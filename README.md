@@ -1,6 +1,6 @@
 # Hospital Data System and Smart Analytics (HOSxP)
 
-This project is about organizing and protecting large amounts of hospital data to help doctors and nurses work better.
+This project focuses on organizing and protecting large amounts of hospital data using MySQL, while designing and optimizing complex queries to help doctors and nurses access information efficiently.
 
 ---
 
