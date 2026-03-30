@@ -2,6 +2,8 @@
 
 A SQL-based data pipeline for extracting, transforming, and analyzing operational data from legacy HOSxP hospital systems.
 
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 ---
 
 ## Overview
@@ -13,6 +15,7 @@ It enables reliable analytics across outpatient (OPD) workflows by simplifying c
 ---
 
 ## Architecture
+
 
 ```
 HOSxP (MySQL)
