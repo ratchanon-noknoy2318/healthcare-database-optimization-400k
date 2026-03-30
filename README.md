@@ -32,7 +32,6 @@ Dashboards / Reports
 
 * `patient` — patient demographics
 * `ovst` — outpatient visits
-* `ovstdiag` — diagnoses
 * `opdscreen` — screening data
 * `vn_stat` — visit-level financial summary
 
@@ -66,8 +65,8 @@ Dashboards / Reports
 
 ```sql
 SELECT
-  o.vstdate,
-  COUNT(DISTINCT o.vn) AS visit_count
+    o.vstdate AS visit_date,
+    COUNT(DISTINCT o.vn) AS total_visits
 FROM ovst o
 WHERE o.vstdate BETWEEN '2025-03-01' AND '2025-09-30'
 GROUP BY o.vstdate
