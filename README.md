@@ -123,3 +123,8 @@ SQL/        ETL and analytics queries
 ## License
 
 MIT
+
+## Getting Started
+1. Clone repo
+2. Set up connection to HOSxP MySQL instance
+3. Run SQL scripts in SQL/ folder
